@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.414 s <<< FAILURE! - in TestSuite
+flipkart.assesment.testCases.TestCase.scenario1  Time elapsed: 4.702 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=114.0.1823.43)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ASSHU', ip: '192.168.1.204', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: msedge, browserVersion: 114.0.1823.43, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50092}, msedge: {msedgedriverVersion: 113.0.1774.42 (881f34180765..., userDataDir: C:\Users\91983\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.204:4444/ses..., se:cdpVersion: 114.0.1823.43, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af06f80876bd97b36bb6e7a1a510d362
+*** Element info: {Using=xpath, value=//div[text()='SAMSUNG']}
+	at flipkart.assesment.testCases.TestCase.scenario1(TestCase.java:32)
+
+flipkart.assesment.testCases.TestCase.scenario1  Time elapsed: 5.163 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: unable to send message to renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ASSHU', ip: '192.168.1.204', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\91983\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.204:4444/ses..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c453787990b753d2e093581074ef700e
+*** Element info: {Using=xpath, value=//div[text()='SAMSUNG']}
+	at flipkart.assesment.testCases.TestCase.scenario1(TestCase.java:32)
+

@@ -16,7 +16,7 @@ public class HomePage {
 	@FindBy(xpath = "//button[@class='_2KpZ6l _2doB4z']")
 	public WebElement closePopUp;
 	
-	@FindBy(xpath = "//img[@alt='Mobiles']")
+	@FindBy(xpath = "//div[text()='Mobiles & Tablets']")
 	public WebElement mobilesLbl;
 	
 	public void click() {
